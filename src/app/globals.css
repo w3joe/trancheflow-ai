@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #070b14;
+  color: #f8fafc;
+  font-family: -apple-system, BlinkMacSystemFont, "Plus Jakarta Sans", "Inter", "Segoe UI", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom AG Grid Fintech Obsidian Overrides */
+.ag-theme-quartz-dark {
+  --ag-background-color: #0B1120;
+  --ag-header-background-color: #0F172A;
+  --ag-odd-row-background-color: #0D1426;
+  --ag-row-hover-color: rgba(0, 112, 186, 0.16);
+  --ag-selected-row-background-color: rgba(0, 180, 216, 0.18);
+  --ag-border-color: rgba(148, 163, 184, 0.14);
+  --ag-header-foreground-color: #94A3B8;
+  --ag-foreground-color: #F1F5F9;
+  --ag-value-change-value-highlight-background-color: rgba(16, 185, 129, 0.45);
+  --ag-font-size: 13px;
+  --ag-row-height: 54px;
+  --ag-header-height: 42px;
+}
